@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Rotobo';
+	font-style: 1.2rem;
+	max-width: 1140px;
+	margin: 0px auto;
+}
+
+/*Header*/
+header {
+	
+}
+
+header	.logo, header .slogan {
+	float: left;
+}
+
+header	.logo {
+	max-width: 25%;
+}
+header	.logo img {
+	width: 25%;
+}
+header .slogan {
+	min-height: 176px;
+	width: 75%;
+}
+header .slogan h2{
+	line-height: 176px;
+	text-transform: uppercase;
+	font-style: 2rem;
+	letter-spacing: 2px;
+}
+
+nav {
+	min-width: 1140px;
+	margin: 0 auto;
+	clear: left;
+}
+
+nav ul {
+	list-style-type: none;
+
+}
+nav ul li {
+	display: inline-block;
+}
